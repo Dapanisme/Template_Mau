@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Helvetica;
+            color: seashell;
+            opacity: 0.9;
+            margin: 0px;
+        }
+
+        body
+        {
+            background-color: black;
+        }
+
+        header
+        {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height:  69px;
+            border-bottom: 1px solid seashell;
+            font-size: 22px;
+        }
+
+        header img
+        {
+            height: 50px;   
+            padding-left: 10px;
+        }
+
+
+         nav 
+        {
+             position: absolute;
+             padding-right: 10px;   
+             right: 0px;
+             font-size: 22px;
+        }
+
+        main
+        {   
+            position:relative;
+            height: 700px;
+            width: 1200px;
+            background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+       
+        
+        .content
+        {
+            position: absolute;
+            height: 100px;
+            width: 1200px;
+            background-color: black;
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 25%;
+            margin-bottom: 25%;
+        }
+
+        #title
+        {
+            text-align: center;
+        }
+       
+        .menu
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1000px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;    
+        }
+
+        .column
+        {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 10px;
+        }
+
+        .row
+        {
+            padding-right: 10px;
+        }
+    
+        .menu img
+        {
+            display: block;
+            height: 200px;
+            width: 300px;
+            padding-bottom: 10px;
+        }
+        
+        .menu
+        {
+            text-align: center;
+        }
+
+        #container
+        {
+            width: 1200px;
+            height: 500px;
+            background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+            background-position: center;
+            background-repeat:no-repeat;
+            background-size: cover;
+            display: flex;
+            margin: auto auto;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+        }
+
+        .subcontainer
+        {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .sublocation
+        {
+            margin-right: 40px;
+            background-color: black;
+            height: 300px;
+            width: 300px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .sublocation p
+        {
+            padding-bottom: 10px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <img src = "https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png">
+        <nav> 
+            <span>Mission </span>
+            <span>Featured</span>
+            <span>Location</span>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <h2 >Our mission</h2>
+            <h4 style="padding-top: 20px">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic tea</h4>
+        </div>
+    </main>
+
+    <div id = "title">
+        <h2 style="padding-top: 45px">Tea of the month</h2>
+        <h4 style="padding-top: 16px">What's that sleeping at The Tea Cozy?</h4>
+    </div>
+
+    <div class = "menu">
+        <div class = "column">
+            <div class = "row">
+                <img src = "https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg">
+                <p> Fall Berry Bliz Tea </p>
+            </div>
+        
+            <div class = "row">
+                <img src = "https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg">
+                <p>Spice Rum Tea</p>
+            </div>
+
+            <div class = "row">
+                <img src = "https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg" >
+                <p> Seasonal Donuts</p>
+            </div>
+        </div>
+
+        <div class = "column">
+            <div class = "row">
+                <img src = "https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg">
+                <p>Myryth Ave Tea </p>
+            </div>
+
+            <div class = "row">
+                <img src = "https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" >
+                <p> Belford Bizzare</p>
+            </div>
+        </div>
+    </div>
+
+    <div id = "container">
+        <div class = "subcontainer">
+            <div class = "sublocation">
+                <p>Downtown</p>
+                <p>384 West 4th St</p>
+                <p>Suite 108</p>
+                <p>Portland, Marine</p>
+            </div>
+
+            <div class = "sublocation"></div>
+            <div class = "sublocation"></div>
+        </div>
+
+    </div>
+    
+
+
+      
+
+  </body>
+ </html>
+
+
